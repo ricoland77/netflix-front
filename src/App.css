@@ -114,7 +114,7 @@ h2 {
 
 .carousel {
   max-width: 100%;
-  margin-top: -50px;
+  margin-top: -70px;
 }
 
 .images::-webkit-scrollbar {
@@ -183,6 +183,10 @@ h2 {
   h2 {
     font-size: 18px;
   }
+
+  .carousel {
+    margin-top: -100px;
+  }
 }
 
 /* large devices 768 ===> 1024) */
@@ -203,6 +207,10 @@ h2 {
     background-position: 0vw 6vw;
     height: 70vw;
   }
+
+  .carousel {
+    margin-top: -150px;
+  }
 }
 
 /* Extra large devices min 1024 */
@@ -214,5 +222,9 @@ h2 {
   .visuel-bottom-header {
     background-position: 0vw 4vw;
     height: 70vw;
+  }
+
+  .carousel {
+    margin-top: -200px;
   }
 }
